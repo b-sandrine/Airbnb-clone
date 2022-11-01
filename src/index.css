@@ -45,7 +45,7 @@ nav img {
 
 .description {
   width: 90%;
-  margin: 35px auto;
+  margin: 45px auto;
 }
 
 .description h3 {
@@ -56,7 +56,8 @@ nav img {
 }
 
 .description p {
-  width: 440px;
-  font-size: 25px;
+  width: 420px;
+  font-size: 20px;
+  color: #222222;
 }
 
