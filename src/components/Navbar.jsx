@@ -1,9 +1,10 @@
+import logo from "../assets/airbnb-logo-removebg-preview.png"
 
 function Navbar () {
     return (
-        <>
-            <h1>This is the navbar</h1>
-        </>
+        <nav>
+            <img src={logo} alt="the logo image"></img>
+        </nav>
     )
 }
 
