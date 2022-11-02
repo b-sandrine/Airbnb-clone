@@ -1,5 +1,5 @@
 
-import image from '../assets/foreground-image-removebg-preview.png';
+import image from '../assets/photo-grid.png';
 
 function Hero () {
     return (
