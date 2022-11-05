@@ -48,8 +48,7 @@ nav img {
 .image img {
   width: 596px;
   height: 332px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
 }
 
 .description {
