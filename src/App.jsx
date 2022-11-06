@@ -9,6 +9,9 @@ function App() {
       <Hero />
       <Card /> */}
       <Contact />
+      <Contact />
+      <Contact />
+      <Contact />
     </div>
   )
 }
