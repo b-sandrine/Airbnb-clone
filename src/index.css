@@ -109,6 +109,7 @@ section {
   background-color: white;
   flex: 0 0 90%;
   max-width: 90%;
+  margin-left: 20px;
 } 
 
 .contact-card > img {

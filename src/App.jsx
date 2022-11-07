@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Card from './components/Card';
 import Contact from "./components/Contact";
 import cat_1 from './assets/pexels-kelvin-valerio-617278.jpg';
 import cat_2 from './assets/istockphoto-1217828258-612x612.jpg';
