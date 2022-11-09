@@ -75,14 +75,11 @@ section {
   color: #222222;
 }
 
-.card {
-  width: 175px;
-  font-size: 12px;
-}
 
 .card--image {
   width: 100%;
   border-radius: 9px;
+  height: 250px;
 }
 
 .card--stats {
@@ -92,4 +89,19 @@ section {
 
 .card--star {
   height: 14px;
+}
+
+.cardData {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
 }
