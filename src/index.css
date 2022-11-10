@@ -90,31 +90,3 @@ section {
 .card--star {
   height: 14px;
 }
-
-.cardData {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
-}
-
-.card {
-  width: 175px;
-  font-size: 12px;
-  flex: 0 0 auto;         
-  display: flex;         
-  flex-direction: column;
-  position: relative;
-}
-
-.card .card--badge {
-  position: absolute;
-  width: 75px;
-  background-color: #fff;
-  height: 25px;
-  margin: 8px;
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 3px;
-  font-weight: 600;
-}
