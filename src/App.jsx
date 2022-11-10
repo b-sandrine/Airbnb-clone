@@ -1,10 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Contact from "./components/Contact";
-import cat_1 from './assets/pexels-kelvin-valerio-617278.jpg';
-import cat_2 from './assets/istockphoto-1217828258-612x612.jpg';
-import cat_3 from './assets/pexels-peng-louis-1643457.jpg'
-import cat_4 from './assets/pexels-pixabay-45201.jpg';
+import Card from './components/Card';
 import data from './data'
 function App() {
   const cardData = data.map((card) => {
@@ -15,7 +11,9 @@ function App() {
     <div className="container">
       <Navbar />
       <Hero />
-      <Card />
+      <section className="cardData">
+        {cardData}
+      </section>
     </div>
   )
 }
