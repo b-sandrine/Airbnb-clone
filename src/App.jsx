@@ -5,7 +5,7 @@ import data from './data'
 function App() {
   const cardData = data.map((card) => {
     return <Card img={card.coverImg} rating={card.stats.rating}  country={card.location} 
-    title={card.title} price={card.price} reviewCount={card.stats.reviewCount}/>
+    title={card.title} price={card.price} reviewCount={card.stats.reviewCount} openSpots={card.openSpots}/>
   })
 
   return(
@@ -15,7 +15,6 @@ function App() {
       <section className="cardData">
         {cardData}
       </section>
-      
     </div>
   )
 }

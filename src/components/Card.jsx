@@ -1,10 +1,10 @@
 import star from '../assets/star.png'
 
 function Card(props) {
-    console.log(props)
     return (
         <section>
             <div className="card">
+                {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
                 <img src={props.img} className="card--image" />
                 <div className="card--stats">
                     <img src={star} className="card--star" />
