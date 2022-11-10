@@ -4,8 +4,7 @@ import Card from './components/Card';
 import data from './data'
 function App() {
   const cardData = data.map((card) => {
-    return <Card img={card.coverImg} rating={card.stats.rating}  country={card.location} 
-    title={card.title} price={card.price} reviewCount={card.stats.reviewCount} openSpots={card.openSpots}/>
+    return <Card key={card.id} item={card}/>
   })
 
   return(
